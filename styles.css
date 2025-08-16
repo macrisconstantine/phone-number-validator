@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #236b56;
+    background-color: #ffffff;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,17 +15,26 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    width: 325px;
     height: 650px;
     background-color: black;
     box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
 }
 
 .input-field {
     padding: 10px;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: none;
+    border-radius: 25px;
     margin-right: 10px;
+}
+
+#button-div {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .btn {
@@ -35,11 +44,10 @@ body {
     cursor: pointer;
     width: 75px;
     height: 75px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     font-size: 16px;
-    font-weight: bold;
     margin: 5px;
-
+    text-align: center;
 }
 
 #check-btn {
