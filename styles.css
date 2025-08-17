@@ -23,18 +23,21 @@ body {
 }
 
 .input-field {
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 25px;
     margin-right: 10px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 #button-div {
-    margin-top: 100px;
+    margin-top: 180px;
     display: flex;
     flex-direction: row !important;
     justify-content: space-between;
-    width: 100%;
+    width: 300px;
+    position: absolute;
 }
 
 .btn {
@@ -44,10 +47,11 @@ body {
     cursor: pointer;
     width: 75px;
     height: 75px;
-    font-family: monospace;
-    font-size: 16px;
-    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 25px;
     text-align: center;
+    margin-top: 320px;
 }
 
 #check-btn {
@@ -63,4 +67,5 @@ body {
 #results-div {
     margin-top: 20px;
     color: white;
+    max-height: fit-content;
 }
