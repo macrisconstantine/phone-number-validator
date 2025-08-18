@@ -26,9 +26,10 @@ body {
     padding: 15px;
     border: none;
     border-radius: 25px;
-    margin-right: 10px;
+    margin-bottom: 350px;
     font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
 }
 
 #button-div {
@@ -38,6 +39,7 @@ body {
     justify-content: space-between;
     width: 300px;
     position: absolute;
+    margin-top: 500px;
 }
 
 .btn {
@@ -51,7 +53,6 @@ body {
     font-size: 18px;
     margin: 25px;
     text-align: center;
-    margin-top: 320px;
 }
 
 #check-btn {
@@ -67,5 +68,6 @@ body {
 #results-div {
     margin-top: 20px;
     color: white;
-    max-height: fit-content;
+    max-height: 300px;
+    overflow-y: auto;
 }
