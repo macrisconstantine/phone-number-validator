@@ -6,9 +6,9 @@ function checkClick() {
   if (userInput.value == "") {
     alert("Please provide a phone number.");
   } else if (validNumberFormat.test(userInput.value)) {
-    resultsDiv.innerHTML += "<br/>Valid US number: " + userInput.value;
+    resultsDiv.innerHTML = "<br/><br/>Valid US number: " + userInput.value + resultsDiv.innerHTML;
   } else {
-    resultsDiv.innerHTML += "<br/>Invalid US number: " + userInput.value;
+    resultsDiv.innerHTML = "<br/><br/>Invalid US number: " + userInput.value + resultsDiv.innerHTML;
   }
   
 }
