@@ -22,6 +22,15 @@ body {
     border-radius: 60px;
 }
 
+#title {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    width: 325px;
+}
+
 .input-field {
     padding: 15px;
     border: none;
