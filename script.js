@@ -19,7 +19,7 @@ function clearClick() {
 }
 
 
-const emojis = ['✨','💫','🌸','🪩','🔥','💖', '🙏', '🪫', '🥀', '😭', '💀'];
+const emojis = ['✨','💫','🌸','🔥','💖', '🙏', '🪫', '🥀', '😭', '💀'];
 document.addEventListener('mousemove', e => {
   const emoji = document.createElement('div');
   emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
